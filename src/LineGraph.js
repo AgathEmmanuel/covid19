@@ -99,7 +99,6 @@ function LineGraph({ casesType }) {
                   borderColor:"#CC1034",
                   data:data}],
             }}
-              options={options}
               />
          )}
             

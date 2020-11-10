@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react';
 import LineGraph from "./LineGraph"
 import sortData from './util.js'
 import Table from './Table.js'
-import Map from './Map.js'
 import './App.css';
 import {
   MenuItem,
@@ -12,6 +11,8 @@ import {
   CardContent,
 } from "@material-ui/core"
 import InfoBox from './infoBox.js';
+{/*import Map from './Map.js'*/}
+{/*import "leaflet/dist/leaflet.css"*/}
 
 function App() {
   const[country,setCountry]=useState('worldwide');
@@ -103,7 +104,8 @@ function App() {
           
       </div>
       
-      <Map />
+      {/*<Map />*/}
+
       </div>
 
       <Card className="div.app__right">
